@@ -1,0 +1,399 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Plano de Treino: Chapim Forte e Atleta</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
+    <style>
+        body { font-family: 'Inter', sans-serif; }
+        
+        /* Estilos específicos para impressão da Folha de Registo */
+        @media print {
+            .no-print { display: none; }
+            .print-only { display: block; }
+            body { background: white; color: black; }
+            .page-break { page-break-before: always; }
+        }
+        .print-only { display: none; }
+    </style>
+</head>
+<body class="bg-slate-50 text-slate-800">
+
+    <!-- IMAGEM NO TOPO DIREITO -->
+    <div class="fixed top-4 right-4 w-32 sm:w-40 md:w-48 lg:w-56 no-print">
+        <img src="chapim_musculoso.jpg" alt="Chapim musculoso com pesos" class="w-full rounded-xl shadow-lg border-4 border-white/80">
+    </div>
+
+    <!-- CABEÇALHO -->
+    <header class="bg-indigo-900 text-white py-10 px-4 shadow-lg no-print">
+        <div class="max-w-4xl mx-auto text-center">
+            <h1 class="text-3xl md:text-5xl font-extrabold mb-2 text-yellow-300 uppercase tracking-wide">Chapim Forte e Atleta</h1>
+            <p class="text-xl opacity-90 font-light">Plano de Treino em Casa com Elásticos</p>
+            <div class="mt-6 inline-block bg-white/10 px-6 py-2 rounded-full border border-white/20">
+                <span class="font-semibold text-yellow-300">Frequência:</span> Quando conseguires
+            </div>
+            <div class="mt-8 flex justify-center gap-4">
+                <a href="#treino" class="bg-yellow-400 text-indigo-900 px-6 py-2 rounded-lg font-bold hover:bg-yellow-300 transition">Ver Treino</a>
+            </div>
+        </div>
+    </header>
+
+    <main class="max-w-4xl mx-auto px-4 py-8 space-y-12">
+
+        <!-- NOTA IMPORTANTE -->
+        <div class="no-print bg-orange-50 border-l-4 border-orange-500 text-orange-800 rounded-xl p-4 shadow-sm">
+            <p class="font-extrabold uppercase tracking-wide text-sm mb-1">Nota obrigatória</p>
+            <p class="text-sm md:text-base">Regista cada ronda com <strong>repetições</strong>, <strong>peso usado</strong> e uma nota rápida de <strong>dificuldade</strong> (por ex.: fácil, moderado, puxado). Assim vês a evolução e ajustas a carga.</p>
+        </div>
+
+        <!-- 1. AQUECIMENTO -->
+        <section id="treino" class="no-print">
+            <div class="bg-white rounded-2xl shadow-sm border border-slate-200 p-6 md:p-8">
+                <h2 class="text-2xl font-bold text-indigo-900 mb-6 flex items-center">
+                    <span class="bg-indigo-100 text-indigo-800 text-sm font-bold px-3 py-1 rounded-full mr-3">PARTE 1</span>
+                    Aquecimento (5-7 Minutos)
+                </h2>
+                <ul class="space-y-4">
+                    <li class="flex items-start"><span class="text-green-500 mr-2 font-bold">✓</span> <span><strong>Marcha no Lugar:</strong> 1 minuto (joelhos altos).</span></li>
+                    <li class="flex items-start"><span class="text-green-500 mr-2 font-bold">✓</span> <span><strong>Círculos com os Braços:</strong> 30 segundos para a frente, 30 segundos para trás.</span></li>
+                    <li class="flex items-start"><span class="text-green-500 mr-2 font-bold">✓</span> <span><strong>Rotações do Tronco:</strong> 1 minuto (rodar suavemente de um lado para o outro).</span></li>
+                    <li class="flex items-start"><span class="text-green-500 mr-2 font-bold">✓</span> <span><strong>Agachamentos (Peso do Corpo):</strong> 15 repetições (lento e controlado).</span></li>
+                    <li class="flex items-start"><span class="text-green-500 mr-2 font-bold">✓</span> <span class="italic text-slate-500">Mexe-te um bocadinho. Faz o que te for intuitivo também.</span></li>
+                </ul>
+            </div>
+        </section>
+
+        <!-- 2. O CIRCUITO -->
+        <section class="no-print">
+            <div class="text-center mb-8">
+                <h2 class="text-3xl font-bold text-slate-900">O Circuito de Treino</h2>
+                <p class="text-slate-600 mt-2">Realize 3 rondas. Descansa 2-3 minutos entre rondas.</p>
+            </div>
+
+            <!-- A. Parte Inferior -->
+            <div class="mb-8">
+                <h3 class="text-xl font-bold text-pink-600 mb-4 uppercase tracking-wider border-b border-pink-200 pb-2">A. Parte Inferior do Corpo</h3>
+                <div class="grid gap-6 md:grid-cols-2">
+                    
+                    <!-- Card 1 -->
+                    <div class="bg-white rounded-xl shadow-md overflow-hidden border border-slate-100 hover:shadow-lg transition">
+                        <div class="p-6">
+                            <div class="flex justify-between items-start mb-3">
+                                <h4 class="font-bold text-lg text-slate-900">1. Agachamentos com Elástico</h4>
+                                <a href="https://www.youtube.com/watch?v=cR9fZk8JaKY" target="_blank" class="text-red-600 hover:text-red-700 flex items-center text-xs font-bold bg-red-50 px-2 py-1 rounded">
+                                    <svg class="w-4 h-4 mr-1" fill="currentColor" viewBox="0 0 24 24"><path d="M19.615 3.184c-3.604-.246-11.631-.245-15.23 0-3.897.266-4.356 2.62-4.385 8.816.029 6.185.484 8.549 4.385 8.816 3.6.245 11.626.246 15.23 0 3.897-.266 4.356-2.62 4.385-8.816-.029-6.185-.484-8.549-4.385-8.816zm-10.615 12.816v-8l8 3.993-8 4.007z"/></svg>
+                                    VER VÍDEO
+                                </a>
+                            </div>
+                            <p class="text-sm text-slate-500 mb-3"><strong>Músculos:</strong> Glúteos, Quadríceps, Isquiotibiais.</p>
+                            <div class="bg-slate-50 p-3 rounded-lg text-sm text-slate-700 mb-3">
+                                <strong>Posição:</strong> Pise o elástico com os pés à largura dos ombros. Segure as pegas (ou o laço) à altura dos ombros.<br>
+                                <strong>Ação:</strong> Agache-se como se fosse sentar numa cadeira, mantendo o peito levantado. Empurre através dos calcanhares para voltar à posição inicial.
+                            </div>
+                            <div class="font-bold text-indigo-600">Repetições: 12-15</div>
+                        </div>
+                    </div>
+
+                    <!-- Card 2 -->
+                    <div class="bg-white rounded-xl shadow-md overflow-hidden border border-slate-100 hover:shadow-lg transition">
+                        <div class="p-6">
+                            <div class="flex justify-between items-start mb-3">
+                                <h4 class="font-bold text-lg text-slate-900">2. Ponte de Glúteos</h4>
+                                <a href="https://www.youtube.com/watch?v=q5U-p6vA3uo" target="_blank" class="text-red-600 hover:text-red-700 flex items-center text-xs font-bold bg-red-50 px-2 py-1 rounded">
+                                    <svg class="w-4 h-4 mr-1" fill="currentColor" viewBox="0 0 24 24"><path d="M19.615 3.184c-3.604-.246-11.631-.245-15.23 0-3.897.266-4.356 2.62-4.385 8.816.029 6.185.484 8.549 4.385 8.816 3.6.245 11.626.246 15.23 0 3.897-.266 4.356-2.62 4.385-8.816-.029-6.185-.484-8.549-4.385-8.816zm-10.615 12.816v-8l8 3.993-8 4.007z"/></svg>
+                                    VER VÍDEO
+                                </a>
+                            </div>
+                            <p class="text-sm text-slate-500 mb-3"><strong>Músculos:</strong> Glúteos, Core.</p>
+                            <div class="bg-slate-50 p-3 rounded-lg text-sm text-slate-700 mb-3">
+                                <strong>Posição:</strong> Deite-se de costas com os joelhos dobrados, pés apoiados no chão. Coloque um elástico circular logo acima dos joelhos.<br>
+                                <strong>Ação:</strong> Levante as ancas em direção ao teto, apertando os glúteos no topo. Mantenha a tensão no elástico empurrando os joelhos para fora.
+                            </div>
+                            <div class="font-bold text-indigo-600">Repetições: 15-20</div>
+                        </div>
+                    </div>
+
+                    <!-- Card 3 -->
+                    <div class="bg-white rounded-xl shadow-md overflow-hidden border border-slate-100 hover:shadow-lg transition">
+                        <div class="p-6">
+                            <div class="flex justify-between items-start mb-3">
+                                <h4 class="font-bold text-lg text-slate-900">3. Caminhada Lateral</h4>
+                                <a href="https://www.youtube.com/watch?v=yBaQptlMXxk" target="_blank" class="text-red-600 hover:text-red-700 flex items-center text-xs font-bold bg-red-50 px-2 py-1 rounded">
+                                    <svg class="w-4 h-4 mr-1" fill="currentColor" viewBox="0 0 24 24"><path d="M19.615 3.184c-3.604-.246-11.631-.245-15.23 0-3.897.266-4.356 2.62-4.385 8.816.029 6.185.484 8.549 4.385 8.816 3.6.245 11.626.246 15.23 0 3.897-.266 4.356-2.62 4.385-8.816-.029-6.185-.484-8.549-4.385-8.816zm-10.615 12.816v-8l8 3.993-8 4.007z"/></svg>
+                                    VER VÍDEO
+                                </a>
+                            </div>
+                            <p class="text-sm text-slate-500 mb-3"><strong>Músculos:</strong> Glúteos Externos, Ancas.</p>
+                            <div class="bg-slate-50 p-3 rounded-lg text-sm text-slate-700 mb-3">
+                                <strong>Posição:</strong> Coloque um elástico circular à volta dos tornozelos (mais difícil) ou logo acima dos joelhos (mais fácil). Fique de pé com uma ligeira flexão nos joelhos.<br>
+                                <strong>Ação:</strong> Dê um passo para a direita, seguido pelo pé esquerdo. Mantenha a tensão no elástico; nunca deixe os pés tocarem um no outro.
+                            </div>
+                            <div class="font-bold text-indigo-600">Repetições: 10 passos cada direção</div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+            <!-- B. Parte Superior -->
+            <div class="mb-8">
+                <h3 class="text-xl font-bold text-indigo-600 mb-4 uppercase tracking-wider border-b border-indigo-200 pb-2">B. Parte Superior do Corpo</h3>
+                <div class="grid gap-6 md:grid-cols-2">
+
+                    <!-- Card 4 -->
+                    <div class="bg-white rounded-xl shadow-md overflow-hidden border border-slate-100 hover:shadow-lg transition">
+                        <div class="p-6">
+                            <div class="flex justify-between items-start mb-3">
+                                <h4 class="font-bold text-lg text-slate-900">4. Remada em Pé</h4>
+                                <a href="https://www.youtube.com/watch?v=JP2xq33lNF0" target="_blank" class="text-red-600 hover:text-red-700 flex items-center text-xs font-bold bg-red-50 px-2 py-1 rounded">
+                                    <svg class="w-4 h-4 mr-1" fill="currentColor" viewBox="0 0 24 24"><path d="M19.615 3.184c-3.604-.246-11.631-.245-15.23 0-3.897.266-4.356 2.62-4.385 8.816.029 6.185.484 8.549 4.385 8.816 3.6.245 11.626.246 15.23 0 3.897-.266 4.356-2.62 4.385-8.816-.029-6.185-.484-8.549-4.385-8.816zm-10.615 12.816v-8l8 3.993-8 4.007z"/></svg>
+                                    VER VÍDEO
+                                </a>
+                            </div>
+                            <div class="bg-slate-50 p-3 rounded-lg text-sm text-slate-700 mb-3">
+                                <strong>Posição:</strong> Prenda o elástico à altura do peito. Segure uma pega em cada mão, recuando para criar tensão.<br>
+                                <strong>Ação:</strong> Puxe os cotovelos para trás junto ao corpo, apertando as omoplatas. Solte lentamente.
+                            </div>
+                            <div class="font-bold text-indigo-600">Repetições: 12-15</div>
+                        </div>
+                    </div>
+
+                    <!-- Card 5 -->
+                    <div class="bg-white rounded-xl shadow-md overflow-hidden border border-slate-100 hover:shadow-lg transition">
+                        <div class="p-6">
+                            <div class="flex justify-between items-start mb-3">
+                                <h4 class="font-bold text-lg text-slate-900">5. Flexões com Joelho</h4>
+                                <a href="https://www.youtube.com/watch?v=AWXmfy8Lnzs" target="_blank" class="text-red-600 hover:text-red-700 flex items-center text-xs font-bold bg-red-50 px-2 py-1 rounded">
+                                    <svg class="w-4 h-4 mr-1" fill="currentColor" viewBox="0 0 24 24"><path d="M19.615 3.184c-3.604-.246-11.631-.245-15.23 0-3.897.266-4.356 2.62-4.385 8.816.029 6.185.484 8.549 4.385 8.816 3.6.245 11.626.246 15.23 0 3.897-.266 4.356-2.62 4.385-8.816-.029-6.185-.484-8.549-4.385-8.816zm-10.615 12.816v-8l8 3.993-8 4.007z"/></svg>
+                                    VER VÍDEO
+                                </a>
+                            </div>
+                            <div class="bg-slate-50 p-3 rounded-lg text-sm text-slate-700 mb-3">
+                                <strong>Ação:</strong> Mantenha o corpo alinhado, joelhos no chão. Desça o peito até ao chão e empurre.
+                            </div>
+                            <div class="font-bold text-indigo-600">Repetições: 12-15</div>
+                        </div>
+                    </div>
+
+                    <!-- Card 6 -->
+                    <div class="bg-white rounded-xl shadow-md overflow-hidden border border-slate-100 hover:shadow-lg transition">
+                        <div class="p-6">
+                            <div class="flex justify-between items-start mb-3">
+                                <h4 class="font-bold text-lg text-slate-900">6. Press de Ombros</h4>
+                                <a href="https://www.youtube.com/watch?v=xiquktKf4Gk" target="_blank" class="text-red-600 hover:text-red-700 flex items-center text-xs font-bold bg-red-50 px-2 py-1 rounded">
+                                    <svg class="w-4 h-4 mr-1" fill="currentColor" viewBox="0 0 24 24"><path d="M19.615 3.184c-3.604-.246-11.631-.245-15.23 0-3.897.266-4.356 2.62-4.385 8.816.029 6.185.484 8.549 4.385 8.816 3.6.245 11.626.246 15.23 0 3.897-.266 4.356-2.62 4.385-8.816-.029-6.185-.484-8.549-4.385-8.816zm-10.615 12.816v-8l8 3.993-8 4.007z"/></svg>
+                                    VER VÍDEO
+                                </a>
+                            </div>
+                            <p class="text-sm text-slate-500 mb-3"><strong>Músculos:</strong> Ombros.</p>
+                            <div class="bg-slate-50 p-3 rounded-lg text-sm text-slate-700 mb-3">
+                                <strong>Nota:</strong> Consegues encontrar algum peso? Uma cadeira ou um garrafa/garrafão.
+                            </div>
+                            <div class="font-bold text-indigo-600">Repetições: 10-12</div>
+                        </div>
+                    </div>
+
+                    <!-- Card 7 -->
+                    <div class="bg-white rounded-xl shadow-md overflow-hidden border border-slate-100 hover:shadow-lg transition">
+                        <div class="p-6">
+                            <div class="flex justify-between items-start mb-3">
+                                <h4 class="font-bold text-lg text-slate-900">7. Curl de Bíceps</h4>
+                                <a href="https://www.youtube.com/watch?v=wrQfOn53bus" target="_blank" class="text-red-600 hover:text-red-700 flex items-center text-xs font-bold bg-red-50 px-2 py-1 rounded">
+                                    <svg class="w-4 h-4 mr-1" fill="currentColor" viewBox="0 0 24 24"><path d="M19.615 3.184c-3.604-.246-11.631-.245-15.23 0-3.897.266-4.356 2.62-4.385 8.816.029 6.185.484 8.549 4.385 8.816 3.6.245 11.626.246 15.23 0 3.897-.266 4.356-2.62 4.385-8.816-.029-6.185-.484-8.549-4.385-8.816zm-10.615 12.816v-8l8 3.993-8 4.007z"/></svg>
+                                    VER VÍDEO
+                                </a>
+                            </div>
+                            <p class="text-sm text-slate-500 mb-3"><strong>Músculos:</strong> Bíceps.</p>
+                            <div class="bg-slate-50 p-3 rounded-lg text-sm text-slate-700 mb-3">
+                                <strong>Posição:</strong> Pise o meio do elástico. Palmas para a frente.<br>
+                                <strong>Ação:</strong> Dobre os braços levantando as mãos, cotovelos junto às costelas.
+                            </div>
+                            <div class="font-bold text-indigo-600">Repetições: 12-15</div>
+                        </div>
+                    </div>
+
+                    <!-- Card 8 -->
+                    <div class="bg-white rounded-xl shadow-md overflow-hidden border border-slate-100 hover:shadow-lg transition">
+                        <div class="p-6">
+                            <div class="flex justify-between items-start mb-3">
+                                <h4 class="font-bold text-lg text-slate-900">8. Extensões de Tríceps</h4>
+                                <a href="https://www.youtube.com/watch?v=XDr7qoxL1yg" target="_blank" class="text-red-600 hover:text-red-700 flex items-center text-xs font-bold bg-red-50 px-2 py-1 rounded">
+                                    <svg class="w-4 h-4 mr-1" fill="currentColor" viewBox="0 0 24 24"><path d="M19.615 3.184c-3.604-.246-11.631-.245-15.23 0-3.897.266-4.356 2.62-4.385 8.816.029 6.185.484 8.549 4.385 8.816 3.6.245 11.626.246 15.23 0 3.897-.266 4.356-2.62 4.385-8.816-.029-6.185-.484-8.549-4.385-8.816zm-10.615 12.816v-8l8 3.993-8 4.007z"/></svg>
+                                    VER VÍDEO
+                                </a>
+                            </div>
+                            <p class="text-sm text-slate-500 mb-3"><strong>Músculos:</strong> Tríceps.</p>
+                            <div class="bg-slate-50 p-3 rounded-lg text-sm text-slate-700 mb-3">
+                                <strong>Posição:</strong> Pise uma ponta, mão atrás da cabeça, cotovelo aponte para cima.<br>
+                                <strong>Ação:</strong> Estenda o braço diretamente para cima.
+                            </div>
+                            <div class="font-bold text-indigo-600">Repetições: 10-12 por braço</div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+            <!-- C. Core -->
+            <div class="mb-8">
+                <h3 class="text-xl font-bold text-emerald-600 mb-4 uppercase tracking-wider border-b border-emerald-200 pb-2">C. Core / Abdominais</h3>
+                <div class="bg-white rounded-xl shadow-md overflow-hidden border border-slate-100 hover:shadow-lg transition p-6">
+                    <div class="flex justify-between items-start mb-3">
+                        <h4 class="font-bold text-lg text-slate-900">9. Prancha</h4>
+                        <a href="https://www.youtube.com/watch?v=DoOtkRaL1BI" target="_blank" class="text-red-600 hover:text-red-700 flex items-center text-xs font-bold bg-red-50 px-2 py-1 rounded">
+                            <svg class="w-4 h-4 mr-1" fill="currentColor" viewBox="0 0 24 24"><path d="M19.615 3.184c-3.604-.246-11.631-.245-15.23 0-3.897.266-4.356 2.62-4.385 8.816.029 6.185.484 8.549 4.385 8.816 3.6.245 11.626.246 15.23 0 3.897-.266 4.356-2.62 4.385-8.816-.029-6.185-.484-8.549-4.385-8.816zm-10.615 12.816v-8l8 3.993-8 4.007z"/></svg>
+                            VER VÍDEO
+                        </a>
+                    </div>
+                    <div class="font-bold text-indigo-600">3 sets</div>
+                </div>
+            </div>
+
+            <!-- 3. ARREFECIMENTO -->
+            <div class="bg-green-50 rounded-2xl p-6 border border-green-100">
+                <h2 class="text-xl font-bold text-green-900 mb-4">3. Arrefecimento e Alongamentos (5 Minutos)</h2>
+                <div class="grid grid-cols-2 gap-4 text-sm text-green-800">
+                    <div>🧘‍♀️ Posição de Criança</div>
+                    <div>🙆‍♀️ Alongamento de Peito</div>
+                    <div>🦶 Alongamento de Isquiotibiais</div>
+                    <div>🦵 Alongamento de Quadríceps</div>
+                </div>
+            </div>
+
+            <!-- DICAS -->
+            <div class="mt-8 text-sm text-slate-500 bg-slate-100 p-4 rounded-lg">
+                <p><strong>💡 Dicas para o Sucesso:</strong> Controle o Ritmo (conte "1-2" sobe, "1-2" desce). Ajuste a Tensão. Respire!</p>
+            </div>
+        </section>
+
+        <!-- PRINTABLE SHEET SECTION -->
+        <section class="print-only">
+            <h1 class="text-2xl font-bold text-center mb-6 uppercase border-b-2 border-black pb-2">Folha de Registo: Chapim Forte</h1>
+            <div class="border-2 border-orange-500 bg-orange-100 text-orange-900 p-3 rounded mb-4 text-sm font-semibold">
+                Regista por ronda: repetições feitas, peso usado e quão difícil foi (fácil / moderado / puxado).
+            </div>
+            
+            <p class="mb-4 text-sm"><strong>Objetivo:</strong> 3 Rondas | <strong>Descanso:</strong> 2-3 min entre rondas</p>
+
+            <table class="w-full text-sm border-collapse border border-black mb-8">
+                <thead>
+                    <tr class="bg-gray-200">
+                        <th class="border border-black p-2 text-left w-1/4">Exercício</th>
+                        <th class="border border-black p-2 text-center w-14">Meta</th>
+                        <th class="border border-black p-2 text-center w-12">R1 Reps</th>
+                        <th class="border border-black p-2 text-center w-12">R1 Peso</th>
+                        <th class="border border-black p-2 text-center w-12">R2 Reps</th>
+                        <th class="border border-black p-2 text-center w-12">R2 Peso</th>
+                        <th class="border border-black p-2 text-center w-12">R3 Reps</th>
+                        <th class="border border-black p-2 text-center w-12">R3 Peso</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td class="border border-black p-2 font-bold">1. Agachamento</td>
+                        <td class="border border-black p-2 text-center text-xs">12-15</td>
+                        <td class="border border-black p-2"></td>
+                        <td class="border border-black p-2"></td>
+                        <td class="border border-black p-2"></td>
+                        <td class="border border-black p-2"></td>
+                        <td class="border border-black p-2"></td>
+                        <td class="border border-black p-2"></td>
+                    </tr>
+                    <tr class="bg-gray-50">
+                        <td class="border border-black p-2 font-bold">2. Ponte Glúteos</td>
+                        <td class="border border-black p-2 text-center text-xs">15-20</td>
+                        <td class="border border-black p-2"></td>
+                        <td class="border border-black p-2"></td>
+                        <td class="border border-black p-2"></td>
+                        <td class="border border-black p-2"></td>
+                        <td class="border border-black p-2"></td>
+                        <td class="border border-black p-2"></td>
+                    </tr>
+                    <tr>
+                        <td class="border border-black p-2 font-bold">3. Caminhada Lat.</td>
+                        <td class="border border-black p-2 text-center text-xs">10/lado</td>
+                        <td class="border border-black p-2"></td>
+                        <td class="border border-black p-2"></td>
+                        <td class="border border-black p-2"></td>
+                        <td class="border border-black p-2"></td>
+                        <td class="border border-black p-2"></td>
+                        <td class="border border-black p-2"></td>
+                    </tr>
+                    <tr class="bg-gray-50">
+                        <td class="border border-black p-2 font-bold">4. Remada em Pé</td>
+                        <td class="border border-black p-2 text-center text-xs">12-15</td>
+                        <td class="border border-black p-2"></td>
+                        <td class="border border-black p-2"></td>
+                        <td class="border border-black p-2"></td>
+                        <td class="border border-black p-2"></td>
+                        <td class="border border-black p-2"></td>
+                        <td class="border border-black p-2"></td>
+                    </tr>
+                    <tr>
+                        <td class="border border-black p-2 font-bold">5. Flexões Joelho</td>
+                        <td class="border border-black p-2 text-center text-xs">12-15</td>
+                        <td class="border border-black p-2"></td>
+                        <td class="border border-black p-2"></td>
+                        <td class="border border-black p-2"></td>
+                        <td class="border border-black p-2"></td>
+                        <td class="border border-black p-2"></td>
+                        <td class="border border-black p-2"></td>
+                    </tr>
+                    <tr class="bg-gray-50">
+                        <td class="border border-black p-2 font-bold">6. Press Ombros</td>
+                        <td class="border border-black p-2 text-center text-xs">10-12</td>
+                        <td class="border border-black p-2"></td>
+                        <td class="border border-black p-2"></td>
+                        <td class="border border-black p-2"></td>
+                        <td class="border border-black p-2"></td>
+                        <td class="border border-black p-2"></td>
+                        <td class="border border-black p-2"></td>
+                    </tr>
+                    <tr>
+                        <td class="border border-black p-2 font-bold">7. Curl Bíceps</td>
+                        <td class="border border-black p-2 text-center text-xs">12-15</td>
+                        <td class="border border-black p-2"></td>
+                        <td class="border border-black p-2"></td>
+                        <td class="border border-black p-2"></td>
+                        <td class="border border-black p-2"></td>
+                        <td class="border border-black p-2"></td>
+                        <td class="border border-black p-2"></td>
+                    </tr>
+                    <tr class="bg-gray-50">
+                        <td class="border border-black p-2 font-bold">8. Ext. Tríceps</td>
+                        <td class="border border-black p-2 text-center text-xs">10-12</td>
+                        <td class="border border-black p-2"></td>
+                        <td class="border border-black p-2"></td>
+                        <td class="border border-black p-2"></td>
+                        <td class="border border-black p-2"></td>
+                        <td class="border border-black p-2"></td>
+                        <td class="border border-black p-2"></td>
+                    </tr>
+                    <tr>
+                        <td class="border border-black p-2 font-bold">9. Prancha</td>
+                        <td class="border border-black p-2 text-center text-xs">Máx</td>
+                        <td class="border border-black p-2"></td>
+                        <td class="border border-black p-2"></td>
+                        <td class="border border-black p-2"></td>
+                        <td class="border border-black p-2"></td>
+                        <td class="border border-black p-2"></td>
+                        <td class="border border-black p-2"></td>
+                    </tr>
+                </tbody>
+            </table>
+
+            <div class="mt-8 border-t-2 border-dashed border-gray-400 pt-4">
+                <p class="text-sm font-bold mb-2">Notas do Treino:</p>
+                <div class="w-full h-24 border border-gray-300 rounded"></div>
+            </div>
+            
+            <div class="text-center mt-8 text-xs text-gray-500">
+                Imprima várias cópias desta folha para acompanhar o seu progresso semanal.
+            </div>
+        </section>
+
+    </main>
+</body>
+</html>
